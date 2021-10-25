@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+./flyway -configFiles=conf/sis.conf -locations=sis "$@"
