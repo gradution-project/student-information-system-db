@@ -4,7 +4,7 @@
 CREATE TABLE FACULTY
 (
     ID            DECIMAL(4) PRIMARY KEY UNIQUE,
-    NAME          VARCHAR(255),
+    NAME          VARCHAR(256),
     STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
     CREATED_DATE  TIMESTAMP,
     CREATED_USER  DECIMAL(12),
@@ -19,7 +19,7 @@ CREATE TABLE DEPARTMENT
 (
     ID            DECIMAL(3) PRIMARY KEY UNIQUE,
     FACULTY_ID    DECIMAL(4),
-    NAME          VARCHAR(255),
+    NAME          VARCHAR(256),
     STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
     CREATED_DATE  TIMESTAMP,
     CREATED_USER  DECIMAL(12),
@@ -34,7 +34,7 @@ CREATE TABLE LESSON
 (
     ID                     DECIMAL(5) PRIMARY KEY UNIQUE,
     DEPARTMENT_ID          DECIMAL(3),
-    NAME                   VARCHAR(255),
+    NAME                   VARCHAR(256),
     CLASS                  DECIMAL(1),
     MIDTERM                DECIMAL(1),
     CREDIT                 DECIMAL(2),
