@@ -1,0 +1,50 @@
+# --------------------------------------------
+# DDL for Table OFFICER_PERSONAL
+# --------------------------------------------
+CREATE TABLE OFFICER_PERSONAL
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    TC_NO         CHAR(11) UNIQUE,
+    NAME          VARCHAR(255),
+    SURNAME       VARCHAR(255),
+    STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('P', 'A', 'D')),
+    EMAIL         VARCHAR(200),
+    ADDRESS       VARCHAR(255),
+    BIRTHDAY      DATE,
+    PHONE_NUMBER  CHAR(11),
+    REGISTRATION_DATE DATE,
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+)TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table OFFICER_INFO
+# --------------------------------------------
+CREATE TABLE OFFICER_INFO
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    FACULTY_ID    DECIMAL(4) UNIQUE,
+    STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('P', 'A', 'D')),
+    EMAIL         VARCHAR(200),
+    PHONE_NUMBER  CHAR(11),
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+)TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table OFFICER_PARAMETER
+# --------------------------------------------
+CREATE TABLE OFFICER_PARAMETER
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    NAME          VARCHAR(255),
+    VALUE         VARCHAR(20),
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+) TABLESPACE SIS_TBS;

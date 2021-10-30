@@ -1,0 +1,96 @@
+# --------------------------------------------
+# DDL for Table TEACHER_PERSONAL
+# --------------------------------------------
+CREATE TABLE TEACHER_PERSONAL
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    TC_NO         CHAR(11) UNIQUE,
+    STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('P', 'A', 'D')),
+    NAME          VARCHAR(255),
+    SURNAME       VARCHAR(255),
+    EMAIL         VARCHAR(200),
+    PHONE_NUMBER  CHAR(11),
+    ADDRESS       VARCHAR(255),
+    BIRTHDAY      DATE,
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+)TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table TEACHER_ACADEMIC
+# --------------------------------------------
+CREATE TABLE TEACHER_ACADEMIC
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    GROUP_ID      DECIMAL(8) UNIQUE,
+    ROLE_ID       DECIMAL(8) UNIQUE,
+    FACULTY_ID    DECIMAL(4) UNIQUE,
+    DEPARTMENT_ID DECIMAL(3) UNIQUE,
+    STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('P', 'A', 'D')),
+    EMAIL         VARCHAR(200),
+    FIELD_OF_STUDY VARCHAR(255),
+    PHONE_NUMBER  CHAR(11),
+    REGISTRATION_DATE DATE,
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+)TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table TEACHER_LESSON
+# --------------------------------------------
+CREATE TABLE TEACHER_LESSON
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    TEACHER_ID    DECIMAL(11) UNIQUE,
+    LESSON_ID     DECIMAL(10) UNIQUE,
+    FACULTY_ID    DECIMAL(4) UNIQUE,
+    DEPARTMENT_ID DECIMAL(3) UNIQUE,
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+)TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table TEACHER_GROUP
+# --------------------------------------------
+CREATE TABLE TEACHER_GROUP
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    NAME          VARCHAR(255),
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+) TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table TEACHER_ROLE
+# --------------------------------------------
+CREATE TABLE TEACHER_ROLE
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    NAME          VARCHAR(255),
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+) TABLESPACE SIS_TBS;
+
+# --------------------------------------------
+# DDL for Table TEACHER_PARAMETER
+# --------------------------------------------
+CREATE TABLE TEACHER_PARAMETER
+(
+    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    NAME          VARCHAR(255),
+    VALUE         VARCHAR(20),
+    CREATED_DATE  TIMESTAMP,
+    CREATED_USER  DECIMAL(12),
+    MODIFIED_DATE TIMESTAMP,
+    MODIFIED_USER DECIMAL(12)
+) TABLESPACE SIS_TBS;
