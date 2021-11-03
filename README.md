@@ -47,32 +47,16 @@ Updating the Database
 Run the following script to merge database changes:
 
 ```shell
-./auth migrate
-```
-
-```shell
 ./sis migrate
 ```
 
 Should you need to clean everything and start from starch, issue the following command:
 
 ```shell
-./auth clean migrate
-```
-
-```shell
 ./sis clean migrate
 ```
 
 If you are using Windows OS then you need to use these commands with syntax giving below:
-
-```shell
-auth migrate
-```
-
-```shell
-auth clean migrate
-```
 
 ```shell
 sis migrate
