@@ -1,2 +1,2 @@
 @Echo off
-flyway -configFiles=conf/sis.conf -locations=sis %*
+flyway -configFiles=conf/local/sis.conf -locations=sis %*
