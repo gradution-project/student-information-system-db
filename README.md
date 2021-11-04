@@ -66,6 +66,30 @@ sis migrate
 sis clean migrate
 ```
 
+TEST DB Connection Information
+------------------------------------
+
+- **Connection Type:** `URL Only`
+- **JDBC URL:** `jdbc:mysql://yvu4xahse0smimsc.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/njeyua2hj634kcnf`
+
+| Username         | Password         |
+|:----------------:|------------------|
+| g31ax340gn7k3vy9 | p4f2nkus8dhnpyfc |
+
+- Click `Apply` and `OK`, if visible **Succeeded** information message when clicked `Test Connection` button.
+
+MASTER DB Connection Information
+------------------------------------
+
+- **Connection Type:** `URL Only`
+- **JDBC URL:** `jdbc:mysql://r6ze0q02l4me77k3.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/lvmp8pcqa129kizx`
+
+| Username         | Password         |
+|:----------------:|------------------|
+| e2ikxn8dldp8frup | x6fvgr8gj62ba8b9 |
+
+- Click `Apply` and `OK`, if visible **Succeeded** information message when clicked `Test Connection` button.
+
 ## <span style="color: red"> For SUPER Privilege Error! </span>
 
 **Error Message;**
