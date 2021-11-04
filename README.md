@@ -44,7 +44,13 @@ If you need to run another databases then you need to execute their `setup.sql` 
 
 Updating the Database
 ----------------------
-Run the following script to merge database changes:
+Commands must be run under mysql directory:
+
+```shell
+cd mysql
+```
+
+Run the following command to merge database changes:
 
 ```shell
 ./sis migrate
@@ -57,7 +63,6 @@ Should you need to clean everything and start from starch, issue the following c
 ```
 
 If you are using Windows OS then you need to use these commands with syntax giving below:
-
 ```shell
 sis migrate
 ```
