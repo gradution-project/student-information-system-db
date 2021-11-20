@@ -1,5 +1,5 @@
 # --------------------------------------------
-# DDL for Table STUDENT_SIGN_IN
+# DDL for Table AUTH_STUDENT_SIGN_IN
 # --------------------------------------------
 CREATE TABLE AUTH_STUDENT_SIGN_IN
 (
@@ -11,7 +11,7 @@ CREATE TABLE AUTH_STUDENT_SIGN_IN
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table TEACHER_SIGN_IN
+# DDL for Table AUTH_TEACHER_SIGN_IN
 # --------------------------------------------
 CREATE TABLE AUTH_TEACHER_SIGN_IN
 (
@@ -23,7 +23,7 @@ CREATE TABLE AUTH_TEACHER_SIGN_IN
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table OFFICER_SIGN_IN
+# DDL for Table AUTH_OFFICER_SIGN_IN
 # --------------------------------------------
 CREATE TABLE AUTH_OFFICER_SIGN_IN
 (

@@ -1,5 +1,5 @@
 # --------------------------------------------
-# DDL for Table FACULTY
+# DDL for Table UNIV_FACULTY
 # --------------------------------------------
 CREATE TABLE UNIV_FACULTY
 (
@@ -13,7 +13,7 @@ CREATE TABLE UNIV_FACULTY
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table DEPARTMENT
+# DDL for Table UNIV_DEPARTMENT
 # --------------------------------------------
 CREATE TABLE UNIV_DEPARTMENT
 (
@@ -30,7 +30,7 @@ CREATE TABLE UNIV_DEPARTMENT
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON
+# DDL for Table UNIV_LESSON
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON
 (
@@ -49,7 +49,7 @@ CREATE TABLE UNIV_LESSON
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON_TIME_PERCENT
+# DDL for Table UNIV_LESSON_TIME_PERCENT
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON_TIME_PERCENT
 (
@@ -67,7 +67,7 @@ CREATE TABLE UNIV_LESSON_TIME_PERCENT
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON_EXAM_PERCENT
+# DDL for Table UNIV_LESSON_EXAM_PERCENT
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON_EXAM_PERCENT
 (
@@ -82,7 +82,7 @@ CREATE TABLE UNIV_LESSON_EXAM_PERCENT
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON_SCHEDULE
+# DDL for Table UNIV_LESSON_SCHEDULE
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON_SCHEDULE
 (
@@ -96,7 +96,7 @@ CREATE TABLE UNIV_LESSON_SCHEDULE
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table EXAM_SCHEDULE
+# DDL for Table UNIV_EXAM_SCHEDULE
 # --------------------------------------------
 CREATE TABLE UNIV_EXAM_SCHEDULE
 (
