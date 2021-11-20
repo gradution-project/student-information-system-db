@@ -9,15 +9,21 @@
 
 ---
 
-### For Windows (x86, 64-bit)
+### For Windows (x86, 32-bit/64-bit)
 
-#### [MySQL Community Server 8.0.26](https://dev.mysql.com/downloads/file/?id=506256)
+#### [MySQL Community MSI Installer 8.0.26](https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-8.0.26.0.msi)
+
+---
+
+### For macOS 11 (ARM, 64-bit)
+
+#### [MySQL Community Server 8.0.26](https://downloads.mysql.com/archives/get/p/23/file/mysql-8.0.26-macos11-arm64.dmg)
 
 ---
 
 ### For macOS 11 (x86, 64-bit)
 
-#### [MySQL Community Server 8.0.26](https://dev.mysql.com/downloads/file/?id=506505)
+#### [MySQL Community Server 8.0.26](https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.26-macos11-x86_64.dmg)
 
 ### Installation
 
@@ -63,6 +69,7 @@ Should you need to clean everything and start from starch, issue the following c
 ```
 
 If you are using Windows OS then you need to use these commands with syntax giving below:
+
 ```shell
 sis migrate
 ```
