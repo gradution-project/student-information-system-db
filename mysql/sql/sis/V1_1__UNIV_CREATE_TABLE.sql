@@ -17,14 +17,16 @@ CREATE TABLE UNIV_FACULTY
 # --------------------------------------------
 CREATE TABLE UNIV_DEPARTMENT
 (
-    ID               DECIMAL(3) PRIMARY KEY UNIQUE,
-    FACULTY_ID       DECIMAL(4),
-    NAME             VARCHAR(256),
-    STATUS           CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
-    CREATED_DATE     TIMESTAMP,
-    CREATED_USER_ID  DECIMAL(12),
-    MODIFIED_DATE    TIMESTAMP,
-    MODIFIED_USER_ID DECIMAL(12)
+    ID                         DECIMAL(3) PRIMARY KEY UNIQUE,
+    FACULTY_ID                 DECIMAL(4),
+    NAME                       VARCHAR(256),
+    STATUS                     CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
+    TOTAL_CLASS_LEVEL          DECIMAL(1),
+    IS_THERE_PREPARATORY_CLASS BOOLEAN,
+    CREATED_DATE               TIMESTAMP,
+    CREATED_USER_ID            DECIMAL(12),
+    MODIFIED_DATE              TIMESTAMP,
+    MODIFIED_USER_ID           DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
