@@ -35,7 +35,7 @@ CREATE TABLE UNIV_LESSON
     ID                     DECIMAL(5) PRIMARY KEY UNIQUE,
     DEPARTMENT_ID          DECIMAL(3),
     NAME                   VARCHAR(256),
-    CLASS                  DECIMAL(1),
+    TERM                   DECIMAL(1),
     MIDTERM                DECIMAL(1),
     CREDIT                 DECIMAL(2),
     COMPULSORY_OR_ELECTIVE CHAR(1) NOT NULL CHECK (COMPULSORY_OR_ELECTIVE IN ('C', 'E')),
