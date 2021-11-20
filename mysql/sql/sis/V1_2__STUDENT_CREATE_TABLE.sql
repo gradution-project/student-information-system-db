@@ -27,7 +27,7 @@ CREATE TABLE STUDENT_ACADEMIC_INFO
 (
     STUDENT_ID        DECIMAL(12) PRIMARY KEY UNIQUE,
     DEPARTMENT_ID     DECIMAL(3) UNIQUE,
-    DEGREE_ID         DECIMAL(1) UNIQUE,
+    DEGREE            CHAR,
     CLASS_LEVEL       DECIMAL(1),
     EMAIL             VARCHAR(256) UNIQUE,
     STATUS            CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D', 'G')),
@@ -36,19 +36,6 @@ CREATE TABLE STUDENT_ACADEMIC_INFO
     CREATED_USER_ID   DECIMAL(12),
     MODIFIED_DATE     TIMESTAMP,
     MODIFIED_USER_ID  DECIMAL(12)
-) TABLESPACE SIS_TBS;
-
-# --------------------------------------------
-# DDL for Table STUDENT_DEGREE
-# --------------------------------------------
-CREATE TABLE STUDENT_DEGREE
-(
-    ID               DECIMAL(1) PRIMARY KEY UNIQUE,
-    NAME             VARCHAR(256),
-    CREATED_DATE     TIMESTAMP,
-    CREATED_USER_ID  DECIMAL(12),
-    MODIFIED_DATE    TIMESTAMP,
-    MODIFIED_USER_ID DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
