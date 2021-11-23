@@ -18,6 +18,7 @@ CREATE TABLE UNIV_FACULTY
 CREATE TABLE UNIV_DEPARTMENT
 (
     ID                         DECIMAL(5) PRIMARY KEY UNIQUE,
+    FACULTY_ID                 DECIMAL(2),
     NAME                       VARCHAR(256),
     STATUS                     ENUM ('ACTIVE', 'PASSIVE', 'DELETED') NOT NULL,
     TOTAL_CLASS_LEVEL          DECIMAL(1),
