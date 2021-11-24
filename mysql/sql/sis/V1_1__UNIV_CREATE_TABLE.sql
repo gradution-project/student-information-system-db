@@ -1,110 +1,112 @@
 # --------------------------------------------
-# DDL for Table FACULTY
+# DDL for Table UNIV_FACULTY
 # --------------------------------------------
 CREATE TABLE UNIV_FACULTY
 (
-    ID            DECIMAL(4) PRIMARY KEY UNIQUE,
-    NAME          VARCHAR(256),
-    STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
-    CREATED_DATE  TIMESTAMP,
-    CREATED_USER  DECIMAL(12),
-    MODIFIED_DATE TIMESTAMP,
-    MODIFIED_USER DECIMAL(12)
+    ID               DECIMAL(2) PRIMARY KEY UNIQUE,
+    NAME             VARCHAR(256),
+    STATUS           ENUM ('ACTIVE', 'PASSIVE', 'DELETED') NOT NULL,
+    CREATED_DATE     TIMESTAMP,
+    CREATED_USER_ID  DECIMAL(12),
+    MODIFIED_DATE    TIMESTAMP,
+    MODIFIED_USER_ID DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table DEPARTMENT
+# DDL for Table UNIV_DEPARTMENT
 # --------------------------------------------
 CREATE TABLE UNIV_DEPARTMENT
 (
-    ID            DECIMAL(3) PRIMARY KEY UNIQUE,
-    FACULTY_ID    DECIMAL(4),
-    NAME          VARCHAR(256),
-    STATUS        CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
-    CREATED_DATE  TIMESTAMP,
-    CREATED_USER  DECIMAL(12),
-    MODIFIED_DATE TIMESTAMP,
-    MODIFIED_USER DECIMAL(12)
+    ID                         DECIMAL(5) PRIMARY KEY UNIQUE,
+    FACULTY_ID                 DECIMAL(2),
+    NAME                       VARCHAR(256),
+    STATUS                     ENUM ('ACTIVE', 'PASSIVE', 'DELETED') NOT NULL,
+    TOTAL_CLASS_LEVEL          DECIMAL(1),
+    IS_THERE_PREPARATORY_CLASS BOOLEAN,
+    CREATED_DATE               TIMESTAMP,
+    CREATED_USER_ID            DECIMAL(12),
+    MODIFIED_DATE              TIMESTAMP,
+    MODIFIED_USER_ID           DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON
+# DDL for Table UNIV_LESSON
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON
 (
-    ID                     DECIMAL(5) PRIMARY KEY UNIQUE,
-    DEPARTMENT_ID          DECIMAL(3),
+    ID                     DECIMAL(8) PRIMARY KEY UNIQUE,
+    DEPARTMENT_ID          DECIMAL(5),
     NAME                   VARCHAR(256),
-    CLASS                  DECIMAL(1),
+    TERM                   DECIMAL(1),
     MIDTERM                DECIMAL(1),
     CREDIT                 DECIMAL(2),
-    COMPULSORY_OR_ELECTIVE CHAR(1) NOT NULL CHECK (COMPULSORY_OR_ELECTIVE IN ('C', 'E')),
-    STATUS                 CHAR(1) NOT NULL CHECK (STATUS IN ('A', 'P', 'D')),
+    COMPULSORY_OR_ELECTIVE ENUM ('COMPULSORY', 'ELECTIVE')       NOT NULL,
+    STATUS                 ENUM ('ACTIVE', 'PASSIVE', 'DELETED') NOT NULL,
     CREATED_DATE           TIMESTAMP,
-    CREATED_USER           DECIMAL(12),
+    CREATED_USER_ID        DECIMAL(12),
     MODIFIED_DATE          TIMESTAMP,
-    MODIFIED_USER          DECIMAL(12)
+    MODIFIED_USER_ID       DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON_TIME_PERCENT
+# DDL for Table UNIV_LESSON_TIME_PERCENT
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON_TIME_PERCENT
 (
     ID                    BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
-    LESSON_ID             DECIMAL(5),
+    LESSON_ID             DECIMAL(8),
     THEORY_TIME           DECIMAL(2),
     THEORY_TIME_PERCENT   DECIMAL(3),
     PRACTICE_TIME         DECIMAL(2),
     PRACTICE_TIME_PERCENT DECIMAL(3),
     TOTAL_TIME            DECIMAL(2),
     CREATED_DATE          TIMESTAMP,
-    CREATED_USER          DECIMAL(12),
+    CREATED_USER_ID       DECIMAL(12),
     MODIFIED_DATE         TIMESTAMP,
-    MODIFIED_USER         DECIMAL(12)
+    MODIFIED_USER_ID      DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON_EXAM_PERCENT
+# DDL for Table UNIV_LESSON_EXAM_PERCENT
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON_EXAM_PERCENT
 (
     ID                   BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
-    LESSON_ID            DECIMAL(5),
+    LESSON_ID            DECIMAL(8),
     MIDTERM_NOTE_PERCENT DECIMAL(3),
     FINAL_NOTE_PERCENT   DECIMAL(3),
     CREATED_DATE         TIMESTAMP,
-    CREATED_USER         DECIMAL(12),
+    CREATED_USER_ID      DECIMAL(12),
     MODIFIED_DATE        TIMESTAMP,
-    MODIFIED_USER        DECIMAL(12)
+    MODIFIED_USER_ID     DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table LESSON_SCHEDULE
+# DDL for Table UNIV_LESSON_SCHEDULE
 # --------------------------------------------
 CREATE TABLE UNIV_LESSON_SCHEDULE
 (
-    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
-    DEPARTMENT_ID DECIMAL(3),
-    DOCUMENT      LONGBLOB,
-    CREATED_DATE  TIMESTAMP,
-    CREATED_USER  DECIMAL(12),
-    MODIFIED_DATE TIMESTAMP,
-    MODIFIED_USER DECIMAL(12)
+    ID               BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    DEPARTMENT_ID    DECIMAL(5),
+    DOCUMENT         LONGBLOB,
+    CREATED_DATE     TIMESTAMP,
+    CREATED_USER_ID  DECIMAL(12),
+    MODIFIED_DATE    TIMESTAMP,
+    MODIFIED_USER_ID DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
-# DDL for Table EXAM_SCHEDULE
+# DDL for Table UNIV_EXAM_SCHEDULE
 # --------------------------------------------
 CREATE TABLE UNIV_EXAM_SCHEDULE
 (
-    ID            BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
-    DEPARTMENT_ID DECIMAL(3),
-    DOCUMENT      LONGBLOB,
-    CREATED_DATE  TIMESTAMP,
-    CREATED_USER  DECIMAL(12),
-    MODIFIED_DATE TIMESTAMP,
-    MODIFIED_USER DECIMAL(12)
+    ID               BIGINT PRIMARY KEY UNIQUE AUTO_INCREMENT,
+    DEPARTMENT_ID    DECIMAL(5),
+    DOCUMENT         LONGBLOB,
+    CREATED_DATE     TIMESTAMP,
+    CREATED_USER_ID  DECIMAL(12),
+    MODIFIED_DATE    TIMESTAMP,
+    MODIFIED_USER_ID DECIMAL(12)
 ) TABLESPACE SIS_TBS;
 
 
