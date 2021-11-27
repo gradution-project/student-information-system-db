@@ -71,8 +71,7 @@ INSERT INTO sis.STUDENT_PERSONAL_INFO (STUDENT_ID, TC_NO, NAME, SURNAME, EMAIL, 
                                        PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
                                        MODIFIED_DATE, MODIFIED_USER_ID)
 VALUES ('200011101212', '32165474125', 'Mehmet', 'Kapukaya', 'mehmet.kapukaya@gmail.com', '05366847819', 'ACTIVE', null,
-        null,
-        '2021-11-23 19:52:22', 'Ankara', '2021-11-23 19:52:22', '1', '2021-11-23 19:52:22', '1');
+        null, '2021-11-23 19:52:22', 'Ankara', '2021-11-23 19:52:22', '1', '2021-11-23 19:52:22', '1');
 
 INSERT INTO sis.STUDENT_PERSONAL_INFO (STUDENT_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
                                        PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
