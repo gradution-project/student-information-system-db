@@ -173,7 +173,6 @@ INSERT INTO sis.TEACHER_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_I
 VALUES (8, 'MAIL_TEMPLATE_FIRST_PASSWORD',
         '<!DOCTYPE html>
         <html>
-        <head><title>{mailTitle}</title></head>
         <body>
         <p>Merhaba {teacherName},<br><br>
         {date} tarihinde Öğretmen Hesabınız başarıyla oluşturulmuştur.<br><br>
@@ -193,10 +192,9 @@ INSERT INTO sis.TEACHER_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_I
 VALUES (9, 'MAIL_TEMPLATE_FORGOT_PASSWORD',
         '<!DOCTYPE html>
         <html>
-        <head><title>{mailTitle}</title></head>
         <body>
         <p>Merhaba {teacherName},<br><br>
-        Öğrenci Bilgi Sistemi şifreniz değiştirildi.<br><br>
+        Öğrenci Bilgi Sistemi şifreniz başarıyla değiştirildi.<br><br>
 
         <b>Öğretmen Numarası</b>: {teacherNumber}<br>
         <b>OBS Şifresi</b>: {password}<br><br>
