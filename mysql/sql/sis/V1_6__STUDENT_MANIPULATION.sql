@@ -115,5 +115,64 @@ INSERT INTO sis.STUDENT_PERSONAL_INFO (STUDENT_ID, TC_NO, NAME, SURNAME, EMAIL, 
 VALUES ('200011101219', '34525698512', 'Yusuf', 'Atmaca', 'yusuf.atmaca@gmail.com', '05366847811', 'ACTIVE', null, null,
         '2021-11-23 19:52:22', 'Ankara', '2021-11-23 19:52:22', '1', '2021-11-23 19:52:22', '1');
 
+# --------------------------------------------
+# Insert SQL for Table STUDENT_PARAMETER
+# --------------------------------------------
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (1, 'MAIL_SMTP_SENDER_EMAIL', 'student.info.smtp@gmail.com', '2021-12-11 19:46:33', '1');
 
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (2, 'MAIL_SMTP_SENDER_PASSWORD', 'fiFhas-resrar-2buzqu', '2021-12-11 19:46:33', '1');
 
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (3, 'MAIL_SMTP_SENDER_NAME', 'Öğrenci Bilgi Sistemi', '2021-12-11 19:46:33', '1');
+
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (4, 'MAIL_SMTP_HOST', 'smtp.gmail.com', '2021-12-11 19:46:33', '1');
+
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (5, 'MAIL_SMTP_PORT', '587', '2021-12-11 19:46:33', '1');
+
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (6, 'MAIL_SMTP_AUTH', 'true', '2021-12-11 19:46:33', '1');
+
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (7, 'MAIL_SMTP_START_TLS_ENABLE', 'true', '2021-12-11 19:46:33', '1');
+
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (8, 'MAIL_TEMPLATE_FIRST_PASSWORD',
+        '<!DOCTYPE html>
+        <html>
+        <body>
+        <p>Merhaba {studentName},<br><br>
+        {date} tarihinde Öğrenci Hesabınız başarıyla oluşturulmuştur.<br><br>
+
+        <b>Öğrenci Numarası</b>: {studentNumber}<br>
+        <b>OBS Şifresi</b>: {password}<br><br>
+
+        Şifreniz sistem tarafından otomatik olarak oluşturulmuştur, 
+        değiştirmek isterseniz giriş yaptıktan sonra şifrenizi değiştirebilirsiniz.<br><br>
+
+        Teşekkürler,<br>
+        SIS Ekibi</p>
+        </body></html>',
+        '2021-12-11 19:46:33', '1');
+
+INSERT INTO sis.STUDENT_PARAMETER (ID, NAME, VALUE, CREATED_DATE, CREATED_USER_ID)
+VALUES (9, 'MAIL_TEMPLATE_FORGOT_PASSWORD',
+        '<!DOCTYPE html>
+        <html>
+        <body>
+        <p>Merhaba {studentName},<br><br>
+        Öğrenci Bilgi Sistemi şifreniz başarıyla değiştirildi.<br><br>
+
+        <b>Öğrenci Numarası</b>: {studentNumber}<br>
+        <b>OBS Şifresi</b>: {password}<br><br>
+
+        Şifreniz sistem tarafından otomatik olarak oluşturulmuştur, 
+        değiştirmek isterseniz giriş yaptıktan sonra şifrenizi değiştirebilirsiniz.<br><br>
+
+        Teşekkürler,<br>
+        SIS Ekibi</p>
+        </body></html>',
+        '2021-12-11 19:46:33', '1');
