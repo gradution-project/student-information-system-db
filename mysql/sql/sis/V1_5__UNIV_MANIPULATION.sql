@@ -1,3 +1,23 @@
+# --------------------------------------------
+# Insert SQL for Table UNIV_FACULTY
+# --------------------------------------------
+INSERT INTO sis.UNIV_FACULTY (ID, NAME, STATUS, CREATED_DATE, CREATED_USER_ID)
+VALUES (10, 'TIP FAKÜLTESİ', 'ACTIVE', '2021-12-15 20:13:45', 1);
+
+INSERT INTO sis.UNIV_FACULTY (ID, NAME, STATUS, CREATED_DATE, CREATED_USER_ID)
+VALUES (11, 'MÜHENDİSLİK MİMARLIK FAKÜLTESİ', 'ACTIVE', '2021-12-15 20:13:45', 1);
+
+INSERT INTO sis.UNIV_FACULTY (ID, NAME, STATUS, CREATED_DATE, CREATED_USER_ID)
+VALUES (12, 'HUKUK FAKÜLTESİ', 'ACTIVE', '2021-12-15 20:13:45', 1);
+
+
+# --------------------------------------------
+# Insert SQL for Table UNIV_DEPARTMENT
+# --------------------------------------------
 INSERT INTO sis.UNIV_DEPARTMENT (ID, FACULTY_ID, NAME, STATUS, TOTAL_CLASS_LEVEL, IS_THERE_PREPARATORY_CLASS,
-                                 CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES (11012, null, null, 'ACTIVE', null, null, null, null, null, null);
+                                 CREATED_DATE, CREATED_USER_ID)
+VALUES (11011, 11, 'ELEKTRİK ELEKTRONİK MÜHENDİSLİĞİ', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
+
+INSERT INTO sis.UNIV_DEPARTMENT (ID, FACULTY_ID, NAME, STATUS, TOTAL_CLASS_LEVEL, IS_THERE_PREPARATORY_CLASS,
+                                 CREATED_DATE, CREATED_USER_ID)
+VALUES (11012, 11, 'BİLGİSAYAR MÜHENDİSLİĞİ', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
