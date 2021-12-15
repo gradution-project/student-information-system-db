@@ -2,148 +2,108 @@
 # Insert SQL for Table TEACHER_ACADEMIC_INFO
 # --------------------------------------------
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012020', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'fatma.acar@university.edu.tr',
-        '5336987541', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5336987541', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012021', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'sevinc.ak@university.edu.tr',
-        '5052361547', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5052361547', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012022', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'recep.dogan@university.edu.tr',
-        '5569871523', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5569871523', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012023', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'ilyas.yalcin@university.edu.tr',
-        '5452569585', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5452569585', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012024', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'serife.bilir@university.edu.tr',
-        '5356925412', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5356925412', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012025', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'kaan.bilgic@university.edu.tr',
-        '5463521213', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5463521213', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012026', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'abdullah.can@university.edu.tr',
-        '5481236598', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5481236598', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012027', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'yucel.civan@university.edu.tr',
-        '5369585455', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5369585455', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012028', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'gonul.caglar@university.edu.tr',
-        '5452566566', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5452566566', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_ACADEMIC_INFO (TEACHER_ID, DEGREE, ROLE, DEPARTMENT_ID, FIELD_OF_STUDY, EMAIL, PHONE_NUMBER,
-                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID, MODIFIED_DATE,
-                                       MODIFIED_USER_ID)
+                                       STATUS, REGISTRATION_DATE, CREATED_DATE, CREATED_USER_ID)
 VALUES ('11012029', 'ASSISTANT_PROFESSOR', 'TEACHER', '11012', 'VERİ MADENCİLİĞİ', 'gulben.malder@university.edu.tr',
-        '5345213232', 'ACTIVE',
-        '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+        '5345213232', 'ACTIVE', '2021-11-30 13:27:10', '2021-11-30 13:27:10', '1');
 
 
 # --------------------------------------------
 # Insert SQL for Table TEACHER_PERSONAL_INFO
 # --------------------------------------------
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012020', '12365498715', 'Fatma', 'Acar', 'fatman.acar@sisgmail.com', '5336987541', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012020', '12365498715', 'Fatma', 'Acar', 'fatman.acar@sisgmail.com', '5336987541', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012021', '15935796321', 'Sevinç', 'Ak', 'sevinc.ak@sisgmail.com', '5052361547', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012021', '15935796321', 'Sevinç', 'Ak', 'sevinc.ak@sisgmail.com', '5052361547', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012022', '35648275124', 'Recep', 'Doğan', 'recep.dogan@sisgmail.com', '5569871523', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012022', '35648275124', 'Recep', 'Doğan', 'recep.dogan@sisgmail.com', '5569871523', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012023', '15236895412', 'İlyas', 'Yalçın', 'ilyas.yalcin@sisgmail.com', '5452569585', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012023', '15236895412', 'İlyas', 'Yalçın', 'ilyas.yalcin@sisgmail.com', '5452569585', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012024', '25467598562', 'Şerife', 'Bilir', 'serife.bilir@sisgmail.com', '5356925412', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012024', '25467598562', 'Şerife', 'Bilir', 'serife.bilir@sisgmail.com', '5356925412', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012025', '12365489652', 'Kaan', 'Bilgeç', 'kaan.bilgec@sisgmail.com', '5463521213', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012025', '12365489652', 'Kaan', 'Bilgeç', 'kaan.bilgec@sisgmail.com', '5463521213', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012026', '15936214785', 'Abdullah', 'Can', 'abdullah.can@sisgmail.com', '5481236598', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012026', '15936214785', 'Abdullah', 'Can', 'abdullah.can@sisgmail.com', '5481236598', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012027', '15935768251', 'Yücel', 'Civan', 'yucel.civan@sisgmail.com', '5369585455', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012027', '15935768251', 'Yücel', 'Civan', 'yucel.civan@sisgmail.com', '5369585455', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012028', '36985269326', 'Gönül', 'Cağlar', 'gonul.caglar@sisgmail.com', '5452566566', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012028', '36985269326', 'Gönül', 'Cağlar', 'gonul.caglar@sisgmail.com', '5452566566', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.TEACHER_PERSONAL_INFO (TEACHER_ID, TC_NO, NAME, SURNAME, EMAIL, PHONE_NUMBER, STATUS, PROFILE_PHOTO,
-                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID,
-                                       MODIFIED_DATE, MODIFIED_USER_ID)
-VALUES ('11012029', '15236895120', 'Gülben', 'Malder', 'gulben.malder@sisgmail.com', '5345213232', 'ACTIVE', null, null,
-        '2021-11-30 13:27:10',
-        'İstanbul', '2021-11-30 13:27:10', '1', '2021-11-30 13:27:10', '1');
+                                       PROFILE_PHOTO_URL, BIRTHDAY, ADDRESS, CREATED_DATE, CREATED_USER_ID)
+VALUES ('11012029', '15236895120', 'Gülben', 'Malder', 'gulben.malder@sisgmail.com', '5345213232', 'ACTIVE',
+        null, null, '2021-11-30 13:27:10', 'İstanbul', '2021-11-30 13:27:10', '1');
 
 # --------------------------------------------
 # Insert SQL for Table TEACHER_PARAMETER
