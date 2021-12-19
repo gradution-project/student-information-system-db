@@ -45,13 +45,10 @@ CREATE TABLE TEACHER_ACADEMIC_INFO
 # --------------------------------------------
 CREATE TABLE TEACHER_LESSON
 (
-    ID               NUMERIC(5),
     TEACHER_ID       NUMERIC(8),
     LESSON_ID        NUMERIC(8),
     CREATED_DATE     TIMESTAMP,
-    CREATED_USER_ID  NUMERIC(12),
-    MODIFIED_DATE    TIMESTAMP,
-    MODIFIED_USER_ID NUMERIC(12)
+    CREATED_USER_ID NUMERIC(12)
 ) TABLESPACE SIS_TBS;
 
 # --------------------------------------------
