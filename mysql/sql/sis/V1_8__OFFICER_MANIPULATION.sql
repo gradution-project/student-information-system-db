@@ -128,7 +128,7 @@ VALUES (8, 'MAIL_TEMPLATE_FIRST_PASSWORD',
         <p>Merhaba {officerName},<br><br>
         {date} tarihinde Personel Hesabınız başarıyla oluşturulmuştur.<br><br>
 
-        <b>Personel Numarası</b>: {teacherNumber}<br>
+        <b>Personel Numarası</b>: {officerNumber}<br>
         <b>OBS Şifresi</b>: {password}<br><br>
 
         Şifreniz sistem tarafından otomatik olarak oluşturulmuştur,
@@ -147,7 +147,7 @@ VALUES (9, 'MAIL_TEMPLATE_FORGOT_PASSWORD',
         <p>Merhaba {officerName},<br><br>
         Öğrenci Bilgi Sistemi şifreniz başarıyla değiştirildi.<br><br>
 
-        <b>Personel Numarası</b>: {teacherNumber}<br>
+        <b>Personel Numarası</b>: {officerNumber}<br>
         <b>OBS Şifresi</b>: {password}<br><br>
 
         Şifreniz sistem tarafından otomatik olarak oluşturulmuştur,
