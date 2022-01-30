@@ -16,11 +16,11 @@ VALUES (12, 'HUKUK FAKÜLTESİ', 'ACTIVE', '2021-12-15 20:13:45', 1);
 # --------------------------------------------
 INSERT INTO sis.UNIV_DEPARTMENT (DEPARTMENT_ID, FACULTY_ID, NAME, STATUS, TOTAL_CLASS_LEVEL, IS_THERE_PREPARATORY_CLASS,
                                  CREATED_DATE, CREATED_USER_ID)
-VALUES (11011, 11, 'ELEKTRİK ELEKTRONİK MÜHENDİSLİĞİ', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
+VALUES (11011, 11, 'Elektrik Elektronik Mühendisliği', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
 
 INSERT INTO sis.UNIV_DEPARTMENT (DEPARTMENT_ID, FACULTY_ID, NAME, STATUS, TOTAL_CLASS_LEVEL, IS_THERE_PREPARATORY_CLASS,
                                  CREATED_DATE, CREATED_USER_ID)
-VALUES (11012, 11, 'BİLGİSAYAR MÜHENDİSLİĞİ', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
+VALUES (11012, 11, 'Bilgisayar Mühendisliği', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
 
 
 # --------------------------------------------
