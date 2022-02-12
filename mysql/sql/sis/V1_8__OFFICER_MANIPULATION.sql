@@ -3,31 +3,31 @@
 # --------------------------------------------
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12001', '12', 'ACTIVE', 'emine.munevver.akca@university.edu.tr', '5066987541', '2021-11-30 13:27:10', '1');
+VALUES ('12001', '10', 'ACTIVE', 'emine.munevver.akca@university.edu.tr', '5066987541', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12002', '12', 'ACTIVE', 'erhan.ciray@university.edu.tr', '5062287541', '2021-11-30 13:27:10', '1');
+VALUES ('12002', '10', 'ACTIVE', 'erhan.ciray@university.edu.tr', '5062287541', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12003', '12', 'ACTIVE', 'busra.kirtas@university.edu.tr', '5066989700', '2021-11-30 13:27:10', '1');
+VALUES ('12003', '10', 'ACTIVE', 'busra.kirtas@university.edu.tr', '5066989700', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12004', '12', 'ACTIVE', 'talip.orhan@university.edu.tr', '5536989711', '2021-11-30 13:27:10', '1');
+VALUES ('12004', '11', 'ACTIVE', 'talip.orhan@university.edu.tr', '5536989711', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12005', '12', 'ACTIVE', 'beyda.yurteri@university.edu.tr', '5556984548', '2021-11-30 13:27:10', '1');
+VALUES ('12005', '11', 'ACTIVE', 'beyda.yurteri@university.edu.tr', '5556984548', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12006', '12', 'ACTIVE', 'melike.kutlay@university.edu.tr', '5054779748', '2021-11-30 13:27:10', '1');
+VALUES ('12006', '11', 'ACTIVE', 'melike.kutlay@university.edu.tr', '5054779748', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('12007', '12', 'ACTIVE', 'i̇lknur.sozumcetin@university.edu.tr', '5066319748', '2021-11-30 13:27:10', '1');
+VALUES ('12007', '11', 'ACTIVE', 'i̇lknur.sozumcetin@university.edu.tr', '5066319748', '2021-11-30 13:27:10', '1');
 
 INSERT INTO sis.OFFICER_ACADEMIC_INFO (OFFICER_ID, FACULTY_ID, STATUS, EMAIL, PHONE_NUMBER,
                                        CREATED_DATE, CREATED_USER_ID)
