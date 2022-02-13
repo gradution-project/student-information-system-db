@@ -26,13 +26,13 @@ CREATE TABLE TEACHER_PERSONAL_INFO
 CREATE TABLE TEACHER_ACADEMIC_INFO
 (
     TEACHER_ID        NUMERIC(8) PRIMARY KEY UNIQUE,
-    DEGREE            ENUM ('RESEARCH_ASSOCIATE', 'TEACHING_ASSOCIATE', 'ASSISTANT_PROFESSOR', 'ASSOCIATE_PROFESSOR', 'PROFESSOR') NOT NULL,
-    ROLE              ENUM ('TEACHER', 'ADVISOR', 'HEAD_OF_DEPARTMENT')                                                            NOT NULL,
+    DEGREE            ENUM ('RESEARCH_ASSOCIATE', 'TEACHING_ASSOCIATE', 'ASSISTANT_PROFESSOR', 'PROFESSOR') NOT NULL,
+    ROLE              ENUM ('TEACHER', 'ADVISOR', 'HEAD_OF_DEPARTMENT')                                     NOT NULL,
     DEPARTMENT_ID     NUMERIC(5),
     FIELD_OF_STUDY    VARCHAR(256),
     EMAIL             VARCHAR(256) UNIQUE,
     PHONE_NUMBER      NUMERIC(10) UNIQUE,
-    STATUS            ENUM ('ACTIVE', 'PASSIVE', 'DELETED')                                                                        NOT NULL,
+    STATUS            ENUM ('ACTIVE', 'PASSIVE', 'DELETED')                                                 NOT NULL,
     REGISTRATION_DATE TIMESTAMP,
     CREATED_DATE      TIMESTAMP,
     CREATED_USER_ID   NUMERIC(12),
