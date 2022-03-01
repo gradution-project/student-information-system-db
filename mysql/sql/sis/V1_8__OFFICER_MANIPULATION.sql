@@ -138,11 +138,12 @@ VALUES (8, 'MAIL_TEMPLATE_FIRST_PASSWORD',
         <p>Merhaba {officerName},<br><br>
         {date} tarihinde Personel Hesabınız başarıyla oluşturulmuştur.<br><br>
 
-        <b>Personel Numarası</b>: {officerNumber}<br>
-        <b>OBS Şifresi</b>: {password}<br><br>
+        <b>Personel Numarası</b>: {officerNumber}<br><br>
 
-        Şifreniz sistem tarafından otomatik olarak oluşturulmuştur,
-        değiştirmek isterseniz giriş yaptıktan sonra şifrenizi değiştirebilirsiniz.<br><br>
+        </b>{changePasswordUrl}</b><br><br>
+
+        Şifrenizi yukarıdaki link üzerinden oluşturabilirsiniz.<br>
+        Link sadece mail gönderiminden itibaren 24 Saat için geçerlidir!<br><br>
 
         Teşekkürler,<br>
         SIS Ekibi</p>
@@ -155,13 +156,16 @@ VALUES (9, 'MAIL_TEMPLATE_FORGOT_PASSWORD',
         <html>
         <body>
         <p>Merhaba {officerName},<br><br>
-        Öğrenci Bilgi Sistemi şifreniz başarıyla değiştirildi.<br><br>
+        Öğrenci Bilgi Sistemi şifre değiştirme isteğiniz üzerine;<br><br>
 
-        <b>Personel Numarası</b>: {officerNumber}<br>
-        <b>OBS Şifresi</b>: {password}<br><br>
+        <b>Personel Numarası</b>: {officerNumber}<br><br>
 
-        Şifreniz sistem tarafından otomatik olarak oluşturulmuştur,
-        değiştirmek isterseniz giriş yaptıktan sonra şifrenizi değiştirebilirsiniz.<br><br>
+        </b>{changePasswordUrl}</b><br><br>
+
+        Şifrenizi yukarıdaki link üzerinden oluşturabilirsiniz.<br>
+        Link sadece mail gönderiminden itibaren 24 Saat için geçerlidir!<br><br>
+
+        Eğer bu isteği siz yapmadıysanız bu maili dikkate almayınız.<br><br>
 
         Teşekkürler,<br>
         SIS Ekibi</p>
