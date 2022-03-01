@@ -137,11 +137,12 @@ VALUES (8, 'MAIL_TEMPLATE_FIRST_PASSWORD',
         <p>Merhaba {studentName},<br><br>
         {date} tarihinde Öğrenci Hesabınız başarıyla oluşturulmuştur.<br><br>
 
-        <b>Öğrenci Numarası</b>: {studentNumber}<br>
-        <b>OBS Şifresi</b>: {password}<br><br>
+        <b>Öğrenci Numarası</b>: {studentNumber}<br><br>
 
-        Şifreniz sistem tarafından otomatik olarak oluşturulmuştur, 
-        değiştirmek isterseniz giriş yaptıktan sonra şifrenizi değiştirebilirsiniz.<br><br>
+        </b>{changePasswordUrl}</b><br><br>
+
+        Şifrenizi yukarıdaki link üzerinden oluşturabilirsiniz.<br>
+        Link sadece mail gönderiminden itibaren 24 Saat için geçerlidir!<br><br>
 
         Teşekkürler,<br>
         SIS Ekibi</p>
@@ -154,13 +155,16 @@ VALUES (9, 'MAIL_TEMPLATE_FORGOT_PASSWORD',
         <html>
         <body>
         <p>Merhaba {studentName},<br><br>
-        Öğrenci Bilgi Sistemi şifreniz başarıyla değiştirildi.<br><br>
+        Öğrenci Bilgi Sistemi şifre değiştirme isteğiniz üzerine;<br><br>
 
-        <b>Öğrenci Numarası</b>: {studentNumber}<br>
-        <b>OBS Şifresi</b>: {password}<br><br>
+        <b>Öğrenci Numarası</b>: {studentNumber}<br><br>
 
-        Şifreniz sistem tarafından otomatik olarak oluşturulmuştur, 
-        değiştirmek isterseniz giriş yaptıktan sonra şifrenizi değiştirebilirsiniz.<br><br>
+        </b>{changePasswordUrl}</b><br><br>
+
+        Şifrenizi yukarıdaki link üzerinden oluşturabilirsiniz.<br>
+        Link sadece mail gönderiminden itibaren 24 Saat için geçerlidir!<br><br>
+
+        Eğer bu isteği siz yapmadıysanız bu maili dikkate almayınız.<br><br>
 
         Teşekkürler,<br>
         SIS Ekibi</p>
