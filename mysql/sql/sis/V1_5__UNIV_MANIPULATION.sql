@@ -100,11 +100,11 @@ VALUES (18082, 18, 'Beden Eğitimi Öğretmenliği', 'ACTIVE', 4, 0, '2021-12-15
 
 INSERT INTO sis.UNIV_DEPARTMENT (DEPARTMENT_ID, FACULTY_ID, NAME, STATUS, TOTAL_CLASS_LEVEL, IS_THERE_PREPARATORY_CLASS,
                                  CREATED_DATE, CREATED_USER_ID)
-VALUES (19094, 19, 'İngiliz Dili ve Edebiyatı ', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
+VALUES (19094, 19, 'İngiliz Dili ve Edebiyatı ', 'ACTIVE', 4, 1, '2021-12-15 20:13:45', 1);
 
 INSERT INTO sis.UNIV_DEPARTMENT (DEPARTMENT_ID, FACULTY_ID, NAME, STATUS, TOTAL_CLASS_LEVEL, IS_THERE_PREPARATORY_CLASS,
                                  CREATED_DATE, CREATED_USER_ID)
-VALUES (20098, 20, 'Diş Hekimliği Bölümü', 'ACTIVE', 4, 0, '2021-12-15 20:13:45', 1);
+VALUES (20098, 20, 'Diş Hekimliği Bölümü', 'ACTIVE', 4, 1, '2021-12-15 20:13:45', 1);
 
 
 # --------------------------------------------
