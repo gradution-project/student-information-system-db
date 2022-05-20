@@ -38,17 +38,17 @@ VALUES ('200011101216', '11012', 'DOCTORAL', 'FIRST', 'beyza.tavil@ogr.universit
 
 INSERT INTO sis.STUDENT_ACADEMIC_INFO (STUDENT_ID, DEPARTMENT_ID, DEGREE, CLASS_LEVEL, EMAIL, STATUS, REGISTRATION_DATE,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('200011101217', '11012', 'DOCTORAL', 'FIRST', 'sümeyye.can@ogr.university.edu.tr', 'ACTIVE',
+VALUES ('200011101217', '14045', 'DOCTORAL', 'FIRST', 'sümeyye.can@ogr.university.edu.tr', 'ACTIVE',
         '2021-11-23 15:26:11', '2021-11-23 15:26:11', '1');
 
 INSERT INTO sis.STUDENT_ACADEMIC_INFO (STUDENT_ID, DEPARTMENT_ID, DEGREE, CLASS_LEVEL, EMAIL, STATUS, REGISTRATION_DATE,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('200011101218', '11012', 'DOCTORAL', 'FIRST', 'betül.bilir@ogr.university.edu.tr', 'ACTIVE',
+VALUES ('200011101218', '17076', 'DOCTORAL', 'FIRST', 'betül.bilir@ogr.university.edu.tr', 'ACTIVE',
         '2021-11-23 15:26:11', '2021-11-23 15:26:11', '1');
 
 INSERT INTO sis.STUDENT_ACADEMIC_INFO (STUDENT_ID, DEPARTMENT_ID, DEGREE, CLASS_LEVEL, EMAIL, STATUS, REGISTRATION_DATE,
                                        CREATED_DATE, CREATED_USER_ID)
-VALUES ('200011101219', '11012', 'DOCTORAL', 'FIRST', 'yusuf.atmaca@ogr.university.edu.tr', 'ACTIVE',
+VALUES ('200011101219', '19094', 'DOCTORAL', 'FIRST', 'yusuf.atmaca@ogr.university.edu.tr', 'ACTIVE',
         '2021-11-23 15:26:11', '2021-11-23 15:26:11', '1');
 
 
