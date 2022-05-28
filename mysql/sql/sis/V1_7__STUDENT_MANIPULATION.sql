@@ -2232,14 +2232,13 @@ VALUES (8, 'MAIL_TEMPLATE_FIRST_PASSWORD',
         '<!DOCTYPE html>
         <html>
         <body>
-        <p>Merhaba {studentName},<br><br>
-        {date} tarihinde Öğrenci Hesabınız başarıyla oluşturulmuştur.<br><br>
+        <p><b>Merhaba {studentName}</b>,<br><br>
+        <b>{date}</b> tarihinde Öğrenci Hesabınız başarıyla oluşturulmuştur.<br><br>
 
         <b>Öğrenci Numarası</b>: {studentNumber}<br><br>
 
-        </b>{changePasswordUrl}</b><br><br>
+        <a href="{changePasswordUrl}"><b>Şifrenizi Belirlemek İçin Tıklayınız</b></a><br><br>
 
-        Şifrenizi yukarıdaki link üzerinden oluşturabilirsiniz.<br>
         Link sadece mail gönderiminden itibaren 24 Saat için geçerlidir!<br><br>
 
         Teşekkürler,<br>
@@ -2252,14 +2251,13 @@ VALUES (9, 'MAIL_TEMPLATE_FORGOT_PASSWORD',
         '<!DOCTYPE html>
         <html>
         <body>
-        <p>Merhaba {studentName},<br><br>
+        <p><b>Merhaba {studentName}</b>,<br><br>
         Öğrenci Bilgi Sistemi şifre değiştirme isteğiniz üzerine;<br><br>
 
         <b>Öğrenci Numarası</b>: {studentNumber}<br><br>
 
-        </b>{changePasswordUrl}</b><br><br>
+        <a href="{changePasswordUrl}"><b>Yeni Şifrenizi Belirlemek İçin Tıklayınız</b></a><br><br>
 
-        Şifrenizi yukarıdaki link üzerinden oluşturabilirsiniz.<br>
         Link sadece mail gönderiminden itibaren 24 Saat için geçerlidir!<br><br>
 
         Eğer bu isteği siz yapmadıysanız bu maili dikkate almayınız.<br><br>
